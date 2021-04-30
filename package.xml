@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>launch_iv</name>
+  <version>0.0.1</version>
+  <description>Autoware.iv specific extensions to the launch tool.</description>
+  <maintainer email="daisuke.nishimatsu@tier4.jp">Daisuke Nishimatsu</maintainer>
+  <license>Apache License 2.0</license>
+  <author email="daisuke.nishimatsu@tier4.jp">Daisuke Nishimatsu</author>
+
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+  <depend>python3-yaml</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
